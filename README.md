@@ -1,6 +1,6 @@
 # 🔥 GasGuard – Smart LPG Safety & Monitoring System
 
-![GasGuard Banner](images/gasguard_banner.jpg)
+<!--![GasGuard Banner](images/gasguard_banner.jpg)-->
 
 ## 🚨 Overview
 
@@ -17,8 +17,8 @@ The project focuses on developing a practical consumer safety product by integra
 ## 🔥 LPG Leak Detection
 - Continuously monitors LPG concentration using an MQ-6 gas sensor.
 - Activates local alerts using:
-  - 🔊 Buzzer alarm
-  - 💡 Warning LED
+  - Buzzer alarm
+  - Warning LED
 - Sends SMS alerts during dangerous gas leakage conditions.
 
 ---
@@ -56,54 +56,31 @@ The system sends alerts for:
 
 ---
 
-# 🏗️ System Architecture
-
-```
-             MQ-6 Gas Sensor
-                    |
-                    |
-              +-------------+
-              |             |
-              |    ESP32    |
-              |             |
-              +-------------+
-                    |
-        ---------------------------
-        |                         |
-        |                         |
- HX711 + Load Cell          SIM800L GSM
-        |                         |
- Gas Level Measurement      SMS Alerts
-```
-
----
-
 # 🛠️ Hardware Components
 
 | Component | Purpose |
 |-----------|---------|
-| 🧠 ESP32 | Main microcontroller |
-| 🔥 MQ-6 Gas Sensor | LPG leak detection |
-| ⚖️ Load Cell | Gas cylinder weight measurement |
-| 📊 HX711 | Load cell signal amplification |
-| 📡 SIM800L GSM Module | SMS communication |
-| 🔊 Buzzer | Audible warning |
-| 💡 LEDs | Visual indicators |
-| 🔋 18650 Li-ion Battery | Portable power source |
+| ESP32 | Main microcontroller |
+| MQ-6 Gas Sensor | LPG leak detection |
+| Load Cell | Gas cylinder weight measurement |
+| HX711 | Load cell signal amplification |
+| SIM800L GSM Module | SMS communication |
+| Buzzer | Audible warning |
+| LEDs | Visual indicators |
 
 ---
 
 # 🔌 PCB Design
 
-## 🖥️ Custom PCB Development
+## Custom PCB Development
 
 The custom PCB was designed using **Altium Designer** with focus on:
 
-- ✅ Power distribution
-- ✅ GSM module power requirements
-- ✅ Sensor interfacing
-- ✅ Noise reduction
-- ✅ Reliable embedded operation
+- Power distribution
+- GSM module power requirements
+- Sensor interfacing
+- Noise reduction
+- Reliable embedded operation
 
 ### PCB Features
 
@@ -184,7 +161,7 @@ Tested:
 
 # 📷 Project Images
 
-## Prototype
+<!--## Prototype-->
 
 <!--![GasGuard Prototype](images/prototype.jpg)-->
 
