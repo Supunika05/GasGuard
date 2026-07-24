@@ -120,8 +120,6 @@ GasGuard uses a battery-powered architecture designed to support GSM transmissio
 
 Features:
 
-- 🔋 18650 Li-ion battery
-- 🔌 TP4056 charging circuit
 - ⚡ Buck converter for voltage regulation
 - 💾 Low-power operation strategies
 - 📶 GSM sleep mode optimization
@@ -186,15 +184,15 @@ Tested:
 
 # 📷 Project Images
 
-## 🔧 Prototype
+## Prototype
 
-![GasGuard Prototype](images/prototype.jpg)
+<!--![GasGuard Prototype](images/prototype.jpg)-->
 
-## 🖥️ PCB Design
+## PCB Design
 
 ![GasGuard PCB](images/pcb_design.png)
 
-## 🔩 PCB 3D View
+## PCB 3D View
 
 ![PCB 3D Model](images/pcb_3d.png)
 
@@ -227,7 +225,3 @@ Tested:
 ### PCB Design
 - Altium Designer
 
-
----
-
-⭐ If you find this project interesting, feel free to explore the implementation and improvements!
