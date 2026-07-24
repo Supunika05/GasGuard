@@ -1,6 +1,6 @@
 # 🔥 GasGuard – Smart LPG Safety & Monitoring System
 
-<!--![GasGuard Banner](images/gasguard_banner.jpg)-->
+![GasGuard Banner](Images/GasGuard_UserFlow.png)
 
 ## 🚨 Overview
 
@@ -163,15 +163,15 @@ Tested:
 
 <!--## Prototype-->
 
-<!--![GasGuard Prototype](images/prototype.jpg)-->
+<!--![GasGuard Prototype](Images/prototype.jpg)-->
 
 ## PCB Design
 
-![GasGuard PCB](images/pcb_design.png)
+![GasGuard PCB](Images/GasGuard_PCB.png)
 
 ## PCB 3D View
 
-![PCB 3D Model](images/pcb_3d.png)
+![PCB 3D Model](Images/GasGuard_3D.png)
 
 ---
 
